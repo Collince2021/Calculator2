@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.bd {
+  background: linear-gradient(to right, yellowgreen, rgba(255, 0, 0, 0.7));
+  margin: 30px auto;
+}
+.del {
+  color: red;
+}
+.calculatorContainer {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  solibox-shadow: 0 0 5px 5px burlywood;
+}
+.outputscrn {
+  background-color: rgba(0, 0, 0, 0.8);
+  grid-column: 1/-1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-around;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 10px;
+  color: white;
+  font-size: 3rem;
+}
+.spantwo {
+  grid-column: span 2;
+}
+button {
+  font-weight: 800;
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 2px solid white;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.98);
+  cursor: pointer;
+}
+.previuos-output {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+#output {
+  color: white;
+  font-size: 2.5rem;
+}
+
