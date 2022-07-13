@@ -14,9 +14,8 @@ allButtons.map((button) => {
 
         break;
       default:
-        if (display.innerText === ".") return;
-        display.innerText += e.target.innerText;
-        break;
+              display.innerText += e.target.innerText;
+        
     }
   });
 });
