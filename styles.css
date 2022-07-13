@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-  solibox-shadow: 0 0 5px 5px burlywood;
+  box-shadow: 0 0 5px 5px burlywood;
 }
 .outputscrn {
   background-color: rgba(0, 0, 0, 0.8);
@@ -34,8 +34,7 @@ body {
   word-wrap: break-word;
   word-break: break-all;
   padding: 10px;
-  color: white;
-  font-size: 3rem;
+ 
 }
 .spantwo {
   grid-column: span 2;
