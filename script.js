@@ -14,6 +14,7 @@ allButtons.map((button) => {
 
         break;
       default:
+            console.log(e.target.innerText);
             console.log(display.innerText += e.target.innerText);
         
     }
